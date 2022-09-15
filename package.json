@@ -1,0 +1,26 @@
+{
+  "name": "startmicroservices",
+  "version": "1.0.0",
+  "description": "start microservices",
+  "main": "index.js",
+  "bin": {
+    "st": "./bin/index.js"
+  },
+  "scripts": {
+	"start": "script.cmd",
+    "test": "start"
+  },
+  "keywords": [
+    "st"
+  ],
+  "author": "ev8",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "child_process": "^1.0.2",
+    "inquirer": "^8.0.0",
+    "node-cmd": "^5.0.0",
+    "util": "^0.12.4",
+    "yargs": "^17.5.1"
+  }
+}
